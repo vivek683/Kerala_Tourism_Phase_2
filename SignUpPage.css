@@ -1,0 +1,13 @@
+.container{
+   background-image: url('./Kerala_Tourism/Agasthyakoodam.webp');
+   background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 1;
+}
+.container:hover{
+    background-image: url('./Kerala_Tourism/sky-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    }
+    

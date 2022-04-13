@@ -1,0 +1,307 @@
+.nav-link b{
+    font-size: large;
+}
+.heading h1{
+    font-size: x-large;
+    /* vertical-align: middle; */
+    
+}
+.heading h1:hover{
+    transform: scale(2);
+    color: grey;
+}
+.nav-link b:hover{
+    transform: scale(1.25);
+    color: grey;
+    background-color: white;
+    border-radius: 5px;
+    }
+    .nav-item a{
+margin-left: 30px;
+    }
+.navbar button:hover{
+    background-color: white;
+    color: grey;
+    transform: scale(1.1);
+}
+.navbar img:hover{
+    transform: scale(1.25);
+}
+
+/* 14 Districts of Kerala Begins */
+.districts{
+    background-color: rgb(219, 241, 241);
+}
+.districts_Kerala h2:hover{
+    transform: scale(1.25);
+    color: forestgreen;
+}
+.card-title a:hover{
+    transform: scale(1.25);
+    color: forestgreen;
+    text-decoration: underline;
+}
+/* 14 Districts of Kerala Ends */
+
+
+/* Top Destinations Template Begins */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body {
+    background: #f9f9f9;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif
+}
+.container {
+    margin-top: 50px
+}
+.title {
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 50px
+}
+.content {
+    position: relative;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden
+}
+.content .content-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s
+}
+.content:hover .content-overlay {
+    opacity: 1
+}
+.content-image {
+    width: 100%
+}
+img {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px
+}
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s
+}
+.content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1
+}
+.content-details h3 {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase
+}
+.content-details p {
+    color: #fff;
+    font-size: 0.8em
+}
+
+.fadeIn-bottom {
+    top: 80%
+}
+/* Top Destinations Template Ends */
+/* External CSS styling by me */
+.top_destinations{
+    background-color: rgb(231, 234, 236);
+}
+.top_destinations:hover{
+    /* background: url(./Kerala_Tourism/Bekal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.top_destinations h2{
+    text-align: center;
+     padding-bottom: 20px;
+}
+.top_destination h2:hover{
+    transform: scale(1.25);
+    color: forestgreen;
+    text-decoration: underline;
+}
+.top_destinations button:hover{
+    transform: scale(1.1);
+    color: grey;
+    background-color: white;
+}
+/* External CSS styling by me */
+
+/* Things_to_do_in_Kerala Begins */
+.Things_to_do_in_Kerala{
+    background-image: url(./Kerala_Tourism/sky-1.jpg);
+}
+.Things_to_do_in_Kerala h2{
+    text-align: center;
+     color: white;
+    padding-bottom: 20px;
+}
+.Things_to_do_in_Kerala h2:hover{
+    transform: scale(1.25);
+    color: forestgreen;
+    text-decoration: underline;
+}
+.Things_to_do_in_Kerala button:hover{
+    transform: scale(1.1);
+    color: grey;
+    background-color: white;
+}
+/* Things_to_do_in_Kerala Ends */
+
+/* Plan_your_trip begins*/
+.plan_your_trip2{
+background-color: rgb(236, 227, 227);
+
+}
+.plan_your_trip2 h2{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    }
+.plan_your_trip2 h2:hover{
+    transform: scale(1.25);
+    color: forestgreen;
+    text-decoration: underline;
+        }
+/* .flex-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} */
+.plan_your_trip2  img{
+    /* height: 50%; */
+    /* width: 100%; */
+    /* border-radius: 50px; */
+    background-color: rgb(118, 118, 129);
+    /* margin-left: 80px;  */
+}
+.plan_your_trip2 img:hover{
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+.plan_your_trip2 p{
+    /* text-align: center; */
+    /* margin-top: 20px; */
+    /* margin-left: 75px; */
+    font-style: italic;
+    font-weight: bold;
+    font-size: larger;
+}
+.plan_your_trip2 p:hover{
+    transform: scale(1.25);
+    color: forestgreen;
+}
+.search_box{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 20px;
+}
+.search_box p{
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-large;
+}
+.search_box p:hover{
+    transform: scale(1.1);
+    color: forestgreen;
+}
+.search_box button:hover{
+    transform: scale(1.1);
+    color: grey;
+    background-color: white;
+}
+.topnav{
+    text-align: center;
+}
+
+/* Plan_your_trip Ends*/
+
+/* Explore Photo Gallery Begins */
+.photo_gallery{ 
+    background-color: rgb(228, 225, 225);
+    }
+    .photo_gallery h2{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        }
+    .photo_gallery h2:hover{
+        transform: scale(1.25);
+        color: forestgreen;
+        text-decoration: underline;
+            }    
+    .photo_gallery img:hover{
+        opacity: 0.5;
+        transform: scale(1.05);
+    }   
+    .photo_gallery p{
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        font-size: larger;
+    }
+    .photo_gallery p:hover{
+        transform: scale(1.25);
+        color: forestgreen;
+    }
+    
+     */
+    /* Explore Photo Gallery Ends */
+
+    /* Footer Section Begins */
+    .bottom_section{
+        background-color: rgb(107, 4, 4);
+            }
+    .bottom_section h3{
+        text-align: center;
+        padding: 10px;
+    }
+    .bottom_section h3:hover{
+        transform: scale(1.25);
+        color: white;
+        text-decoration: underline;
+    }
+    .bottom_section p{
+        padding: 10px;
+        text-align: center;
+        font-size: larger;
+    }
+    .bottom_section p:hover{
+        transform: scale(1.25);
+        color: white;
+    }
+    .bottom_section i{
+        margin-left: 50px;
+    }
+    .bottom_section i:hover{
+        transform: scale(1.25);
+        color: white;
+    }
+    /* Footer Section Ends */
